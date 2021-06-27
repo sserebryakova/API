@@ -10,7 +10,7 @@
 
 # REST API.
 ## Написала запросы и тесты для API Restful-booker в POSTMAN. 
-*Тесты для следующих функций:
+Тесты для следующих функций:
 1. Auth — CreateToken;
 1. Booking — GetBooking;
 1. Booking — CreateBooking;
@@ -18,11 +18,11 @@
 1. Booking — PartialUpdateBooking;
 1. Booking — DeleteBooking;
 1. Ping — HealthCheck.
-У каждого теста проверки на статус ответа (200 ИЛИ 201 ИЛИ 404 и т. д.). Для Create, Update, PartialUpdate - и для данных в JSON.*
+У каждого теста проверки на статус ответа (200 ИЛИ 201 ИЛИ 404 и т. д.). Для Create, Update, PartialUpdate - и для данных в JSON.
 
 ![Postman](images/Postman.png)
 
-*Все запросы и тесты в [файле](restful-booker.postman_collection.json)*
+*Все запросы и тесты в [файле](resources/restful-booker.postman_collection.json)*
 
 *Скриншот результатов запуска Runner.*
 
