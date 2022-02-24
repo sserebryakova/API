@@ -1,5 +1,4 @@
-# API.
-## API. SOAP API.
+# SOAP API.
 ### Работа с API Яндекс.Спеллер.
 *Написала тесты для метода checkTexts с проверкой  двух языков и кодов ошибок 1, 2 и 3.*
 
@@ -8,24 +7,11 @@
 *Создала [XML-файл](resources/YandexSpeller-soapui-project-СеребряковаСМ.xml)
 проекта SoapUI.*
 
-# REST API.
-## Написала запросы и тесты для API Restful-booker в POSTMAN. 
-Тесты для следующих функций:
-1. Auth — CreateToken;
-1. Booking — GetBooking;
-1. Booking — CreateBooking;
-1. Booking — UpdateBooking
-1. Booking — PartialUpdateBooking;
-1. Booking — DeleteBooking;
-1. Ping — HealthCheck.
-У каждого теста проверки на статус ответа (200 ИЛИ 201 ИЛИ 404 и т. д.). Для Create, Update, PartialUpdate - и для данных в JSON.
+### Автоматизирование тестирования сервиса калькулятора. 
+*Выполнила 10 проверок на каждый эндпоинт и 2 интеграционных кейса*
 
-![Postman](images/Postman.png)
+![SOAP API](images/SOAP2.png)
 
-*Все запросы и тесты в [файле](resources/restful-booker.postman_collection.json)*
+*Создала [XML-файл](resources/Java-test-calculator-soapui-project.xml)
+проекта SoapUI.*
 
-*Скриншот результатов запуска Runner.*
-
-![Postman](images/Postman_1.png)
-
-![Postman](images/Postman_2.png)
